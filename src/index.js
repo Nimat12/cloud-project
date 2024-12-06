@@ -5,6 +5,7 @@ import App from "./App";
 import Login from "./components/Login";
 import Register from "./components/Register";
 import "./index.css";
+import Reserve from "./components/Reserve";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
@@ -15,6 +16,7 @@ root.render(
         <Route path="/" element={<App />} />
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
+        <Route path="/reserve" element={<Reserve />} />
       </Routes>
     </Router>
   </React.StrictMode>
